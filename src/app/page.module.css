@@ -1,0 +1,29 @@
+.page {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.blogGrid {
+  display: flex;
+  column-gap: 44px;
+  row-gap: 44px;
+  padding-top: 44px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 1048px){
+  .page {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 600px){
+  .page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}

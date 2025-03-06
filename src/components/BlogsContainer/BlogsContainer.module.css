@@ -1,0 +1,23 @@
+.blogContainer {
+  display: flex;
+  /* gap: 44px; */
+  row-gap: 44px;
+  width: 100%;
+  padding-top: 44px;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* These invisible items will help maintain proper spacing */
+.blogContainer::after {
+  content: "";
+  flex: 0 1 30%;
+}
+
+
+.blogContainer::before {
+  content: "";
+  flex: 0 1 30%;
+  order: 1;
+}
