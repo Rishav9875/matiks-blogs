@@ -21,7 +21,9 @@ export default async function HeroSection({ blog }: HeroSectionProps) {
         </div>
         <h1 className={styles.title}>{blog.title}</h1>
         <p className={styles.excerpt}>{blog.description}</p>
-        <button className={styles.readMore}>Read More</button>
+        <Link href={`/blogs/${blog.slug}`}>
+          <button className={styles.readMore}>Read More</button>
+        </Link>
       </div>
       <div className={styles.imageWrapper}>
         <Image
