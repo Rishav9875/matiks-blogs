@@ -11,9 +11,7 @@ export default function Header() {
         </Link>
       </div>
       <nav className={styles.nav}>
-        {/* <Link href="/about">About us</Link> */}
-        {/* <Link href="/blogs">Blogs</Link> */}
-        <Link href="/privacy">Privacy policy</Link>
+        <Link target="_blank" href="https://www.matiks.com/terms-and-conditions">Privacy policy</Link>
       </nav>
     </header>
   );
